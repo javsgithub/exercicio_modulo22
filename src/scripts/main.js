@@ -20,10 +20,8 @@ const contaAsHoras = setInterval(function () {
 
     document.getElementById("contador").innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutosAteOEvento}m ${segundosAteOEvento}s`;
 
-    if (contaAsHoras < 0) {
+    if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById("contador").innerHTML = "Evento expirado!"
+        document.getElementById("contador").innerHTML = "Evento expirado!";
     }
-
-
 }, 1000);
