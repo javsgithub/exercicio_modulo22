@@ -60,6 +60,10 @@
             font-size: 22px;
             line-height: 24px;
             margin: 24px 0;
+
+            span {
+                color: variables.$blue;
+            }
         }
     }
 }
