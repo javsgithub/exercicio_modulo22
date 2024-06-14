@@ -1,0 +1,11 @@
+@use "variables";
+
+.footer {
+    background-color: variables.$purple1;
+    padding: 32px;
+    
+    &__copyright {
+        text-align: center;
+        letter-spacing: 1.2;
+    }
+}
